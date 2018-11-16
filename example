@@ -1,0 +1,5 @@
+ View tabStripView = tlTab.getChildAt(0);
+        if (courseTabs.size() > 0) {
+            clickAlubm.add(String.valueOf(courseTabs.get(0).getCourseAlbumID()));
+        }
+        tabStripView.setBackground(new TabIndicatorDrawble(tabStripView));
